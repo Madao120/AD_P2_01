@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class Conexion {
 
     // Datos necesarios para conectarnos a PostgreSQL.
-    private String url = "jdbc:postgresql://IP:5432/NOMBRE_BD";
+    private String url = "jdbc:postgresql://10.0.9.226:5432/probas";
     private String usuario = "postgres";
     private String contrasena = "admin";
 
